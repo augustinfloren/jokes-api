@@ -1,87 +1,203 @@
 [
-    { "title": "Pourquoi les plongeurs plongent-ils toujours en arrière ?", "answer": "Parce que sinon ils tombent dans le bateau." },
-    { "title": "Pourquoi les fantômes sont-ils de si mauvais menteurs ?", "answer": "Parce qu'on peut lire à travers eux." },
-    { "title": "Pourquoi les vampires n'ont-ils pas de mail ?", "answer": "Parce qu'ils ont peur des spams." },
-    { "title": "Quelle est la boisson préférée des informaticiens ?", "answer": "Le Java." },
-    { "title": "Pourquoi les oiseaux ne peuvent-ils pas utiliser Facebook ?", "answer": "Parce qu'ils ont déjà trop d'amis." },
-    { "title": "Pourquoi les ordinateurs n'aiment pas la chaleur ?", "answer": "Parce qu'ils ont peur de se faire planter." },
-    { "title": "Pourquoi le football est-il si populaire ?", "answer": "Parce que c'est le seul sport où on peut faire des fautes sans se faire expulser." },
-    { "title": "Pourquoi les fantômes sont-ils de si mauvais conducteurs ?", "answer": "Parce qu'ils passent à travers les murs." },
-    { "title": "Pourquoi les éléphants ne prennent-ils jamais l'avion ?", "answer": "Parce qu'ils ont peur des turbulences." },
-    { "title": "Pourquoi les plongeurs plongent-ils en arrière ?", "answer": "Parce que sinon ils tombent dans le bateau." },
-    { "title": "Quel est le comble pour un électricien ?", "answer": "De ne pas être au courant." },
-    { "title": "Pourquoi les canards sont-ils de si bons joueurs de poker ?", "answer": "Parce qu'ils savent toujours bluffer." },
-    { "title": "Quel est le fruit le plus heureux ?", "answer": "La poire, parce qu'elle a un sourire." },
-    { "title": "Pourquoi les moutons ne prennent-ils jamais le train ?", "answer": "Parce qu'ils préfèrent le bus." },
-    { "title": "Pourquoi les fantômes ne mentent jamais ?", "answer": "Parce qu'ils sont toujours transparents." },
-    { "title": "Quel est le comble pour un jardinier ?", "answer": "De raconter des salades." },
-    { "title": "Pourquoi les chats sont-ils de si bons musiciens ?", "answer": "Parce qu'ils ont toujours le bon ton." },
-    { "title": "Pourquoi les araignées sont-elles de si bons programmeurs ?", "answer": "Parce qu'elles tissent de bonnes toiles." },
-    { "title": "Pourquoi les ordinateurs aiment-ils le camping ?", "answer": "Parce qu'ils adorent les bugs." },
-    { "title": "Pourquoi les poissons détestent les ordinateurs ?", "answer": "Parce qu'ils ont peur des réseaux." },
-    { "title": "Pourquoi les fantômes sont-ils de si mauvais cuisiniers ?", "answer": "Parce qu'ils brûlent toujours les plats." },
-    { "title": "Pourquoi les éléphants ne jouent-ils jamais au poker ?", "answer": "Parce qu'ils ont peur des tricheurs." },
-    { "title": "Pourquoi les abeilles sont-elles de si bons travailleurs ?", "answer": "Parce qu'elles ont toujours la ruche." },
-    { "title": "Pourquoi les canards n'aiment-ils pas les ordinateurs ?", "answer": "Parce qu'ils craignent les virus." },
-    { "title": "Pourquoi les mouettes volent-elles au bord de la mer ?", "answer": "Parce que si elles volaient au bord du lac, elles seraient des lacettes." },
-    { "title": "Pourquoi les poules sont-elles de si bons philosophes ?", "answer": "Parce qu'elles cherchent toujours le pourquoi." },
-    { "title": "Pourquoi les crocodiles sont-ils de si mauvais nageurs ?", "answer": "Parce qu'ils n'ont pas le sens de l'orientation." },
-    { "title": "Pourquoi les chiens ne peuvent-ils pas utiliser Internet ?", "answer": "Parce qu'ils ne savent pas taper sur le clavier." },
-    { "title": "Quel est le comble pour un menuisier ?", "answer": "De ne pas être dans le coup." },
-    { "title": "Pourquoi les souris ne mangent-elles jamais de fromage ?", "answer": "Parce qu'elles préfèrent les chips." },
-    { "title": "Pourquoi les éléphants n'utilisent-ils pas de brosse à dents ?", "answer": "Parce qu'ils préfèrent les dents en ivoire." },
-    { "title": "Pourquoi les chats n'aiment-ils pas les ordinateurs ?", "answer": "Parce qu'ils craignent les souris." },
-    { "title": "Pourquoi les chevaux n'aiment-ils pas les ordinateurs ?", "answer": "Parce qu'ils préfèrent les chevaux de trait." },
-    { "title": "Pourquoi les poissons sont-ils de si bons nageurs ?", "answer": "Parce qu'ils ont des nageoires." },
-    { "title": "Pourquoi les singes ne peuvent-ils pas utiliser Internet ?", "answer": "Parce qu'ils ne savent pas se connecter." },
-    { "title": "Pourquoi les ours ne sont-ils pas de bons pilotes ?", "answer": "Parce qu'ils ont peur des turbulences." },
-    { "title": "Pourquoi les tortues sont-elles de si bons nageurs ?", "answer": "Parce qu'elles ont le temps." },
-    { "title": "Pourquoi les grenouilles sont-elles de si mauvais danseurs ?", "answer": "Parce qu'elles ont deux pieds gauches." },
-    { "title": "Pourquoi les hiboux sont-ils de si bons noctambules ?", "answer": "Parce qu'ils sont toujours dans leur élément la nuit." },
-    { "title": "Pourquoi les lions sont-ils de si bons rois ?", "answer": "Parce qu'ils ont toujours le courage." },
-    { "title": "Pourquoi les requins ne mangent-ils pas de pizza ?", "answer": "Parce qu'ils préfèrent le poisson." },
-    { "title": "Pourquoi les fourmis n'utilisent-elles pas de téléphones ?", "answer": "Parce qu'elles préfèrent communiquer en ligne." },
-    { "title": "Pourquoi les kangourous sont-ils de si bons boxeurs ?", "answer": "Parce qu'ils ont de bonnes pattes." },
-    { "title": "Pourquoi les serpents sont-ils de si bons navigateurs ?", "answer": "Parce qu'ils ont un bon sens de l'orientation." },
-    { "title": "Pourquoi les araignées ne sont-elles pas de bonnes musiciens ?", "answer": "Parce qu'elles ne savent pas jouer de la guitare." },
-    { "title": "Pourquoi les mouches ne peuvent-elles pas prendre le train ?", "answer": "Parce qu'elles n'ont pas de billet." },
-    { "title": "Pourquoi les chevaux n'utilisent-ils pas de GPS ?", "answer": "Parce qu'ils connaissent le chemin." },
-    { "title": "Pourquoi les escargots sont-ils de si bons coureurs ?", "answer": "Parce qu'ils ne se pressent jamais." },
-    { "title": "Pourquoi les mouettes ne peuvent-elles pas faire de la magie ?", "answer": "Parce qu'elles n'ont pas de baguette." },
-    { "title": "Pourquoi les lapins n'aiment-ils pas les ordinateurs ?", "answer": "Parce qu'ils craignent les rongeurs." },
-    { "title": "Pourquoi les colibris sont-ils de si bons chanteurs ?", "answer": "Parce qu'ils ont le bon ton." },
-    { "title": "Pourquoi les paons sont-ils de si bons danseurs ?", "answer": "Parce qu'ils ont de belles plumes." },
-    { "title": "Pourquoi les pigeons sont-ils de si bons voyageurs ?", "answer": "Parce qu'ils ont toujours des ailes." },
-    { "title": "Pourquoi les chameaux sont-ils de si bons randonneurs ?", "answer": "Parce qu'ils ont toujours de l'eau." },
-    { "title": "Pourquoi les fourmis sont-elles de si bons organisateurs ?", "answer": "Parce qu'elles ont une bonne méthode." },
-    { "title": "Pourquoi les grenouilles ne peuvent-elles pas utiliser de téléphones ?", "answer": "Parce qu'elles n'ont pas de doigts." },
-    { "title": "Pourquoi les pélicans sont-ils de si bons nageurs ?", "answer": "Parce qu'ils ont de grands becs." },
-    { "title": "Pourquoi les hippocampes sont-ils de si bons nageurs ?", "answer": "Parce qu'ils ont des nageoires." },
-    { "title": "Pourquoi les crabes ne peuvent-ils pas faire de la musique ?", "answer": "Parce qu'ils n'ont pas d'instruments." },
-    { "title": "Pourquoi les papillons sont-ils de si bons danseurs ?", "answer": "Parce qu'ils ont des ailes." },
-    { "title": "Pourquoi les poissons rouges sont-ils de si bons nageurs ?", "answer": "Parce qu'ils ont de grandes nageoires." },
-    { "title": "Pourquoi les perroquets sont-ils de si bons chanteurs ?", "answer": "Parce qu'ils ont le bon ton." },
-    { "title": "Pourquoi les baleines ne jouent-elles jamais au poker ?", "answer": "Parce qu'elles ont peur des tricheurs." },
-    { "title": "Pourquoi les canards sont-ils de si bons nageurs ?", "answer": "Parce qu'ils ont des plumes." },
-    { "title": "Pourquoi les étoiles ne peuvent-elles pas utiliser de téléphones ?", "answer": "Parce qu'elles brillent déjà." },
-    { "title": "Pourquoi les tigres sont-ils de si bons chasseurs ?", "answer": "Parce qu'ils ont de bonnes griffes." },
-    { "title": "Pourquoi les hérissons sont-ils de si bons coureurs ?", "answer": "Parce qu'ils ont des pattes rapides." },
-    { "title": "Pourquoi les loups sont-ils de si bons chanteurs ?", "answer": "Parce qu'ils ont la voix forte." },
-    { "title": "Pourquoi les corbeaux ne peuvent-ils pas jouer de la musique ?", "answer": "Parce qu'ils n'ont pas d'instruments." },
-    { "title": "Pourquoi les pandas sont-ils de si bons grimpeurs ?", "answer": "Parce qu'ils ont de bonnes griffes." },
-    { "title": "Pourquoi les pingouins sont-ils de si bons nageurs ?", "answer": "Parce qu'ils ont des nageoires." },
-    { "title": "Pourquoi les tigres sont-ils de si bons grimpeurs ?", "answer": "Parce qu'ils ont des griffes acérées." },
-    { "title": "Pourquoi les cerfs ne peuvent-ils pas utiliser de téléphones ?", "answer": "Parce qu'ils n'ont pas de doigts." },
-    { "title": "Pourquoi les chèvres sont-elles de si bonnes grimpeuses ?", "answer": "Parce qu'elles ont des sabots." },
-    { "title": "Pourquoi les rennes ne peuvent-ils pas faire de la magie ?", "answer": "Parce qu'ils n'ont pas de baguette." },
-    { "title": "Pourquoi les oiseaux ne peuvent-ils pas faire de la magie ?", "answer": "Parce qu'ils n'ont pas de baguette." },
-    { "title": "Pourquoi les éléphants ne peuvent-ils pas jouer au poker ?", "answer": "Parce qu'ils ont peur des tricheurs." },
-    { "title": "Pourquoi les requins ne peuvent-ils pas utiliser de téléphones ?", "answer": "Parce qu'ils n'ont pas de doigts." },
-    { "title": "Pourquoi les fourmis ne peuvent-elles pas jouer de la musique ?", "answer": "Parce qu'elles n'ont pas d'instruments." },
-    { "title": "Pourquoi les araignées ne peuvent-elles pas jouer au poker ?", "answer": "Parce qu'elles n'ont pas de doigts." },
-    { "title": "Pourquoi les tortues sont-elles de si bons nageurs ?", "answer": "Parce qu'elles ont le temps." },
-    { "title": "Pourquoi les hiboux ne peuvent-ils pas utiliser de téléphones ?", "answer": "Parce qu'ils n'ont pas de doigts." },
-    { "title": "Pourquoi les lézards sont-ils de si bons grimpeurs ?", "answer": "Parce qu'ils ont des pattes rapides." },
-    { "title": "Pourquoi les oiseaux sont-ils de si bons chanteurs ?", "answer": "Parce qu'ils ont la voix forte." },
-    { "title": "Pourquoi les araignées sont-elles de si bons tisserands ?", "answer": "Parce qu'elles tissent des toiles." }
-]
+    {
+      "title": "Quel est le comble pour un joueur de bowling ?",
+      "answer": "De perdre la boule !"
+    },
+    {
+      "title": "Pourquoi ne faut-il jamais raconter d'histoires drôles à un ballon ?",
+      "answer": "Parce qu'il pourrait éclater de rire !"
+    },
+    {
+      "title": "Quel est le comble pour un professeur de géographie ?",
+      "answer": "De perdre le nord."
+    },
+    {
+      "title": "Pourquoi les indiens d'Amérique ont-ils froid ?",
+      "answer": "Parce que Christophe Colomb les a découverts."
+    },
+    {
+      "title": "Comment reconnaît-on un gorille qui sonne à la porte ?",
+      "answer": "Ça fait King-Kong !"
+    },
+    {
+      "title": "Qu'est ce qu'une carotte au milieu d'une flaque d'eau ?",
+      "answer": "Un bonhomme de neige au printemps !"
+    },
+    {
+      "title": "Quelle est la femelle du hamster ?",
+      "answer": "L'Amsterdam."
+    },
+    {
+      "title": "Quel métier les chiens peuvent-ils exercer ?",
+      "answer": "Electrichien !"
+    },
+    {
+      "title": "Qu'est-ce qui pleure quand on lui tourne la tête ?",
+      "answer": "Un robinet."
+    },
+    {
+      "title": "De quelle couleur sont les parapluies quand il pleut ?",
+      "answer": "Ils sont tout verts !"
+    },
+    {
+      "title": "Qu'est-ce qu'une baguette avec une boussole ?",
+      "answer": "Un pain perdu."
+    },
+    {
+      "title": "Pourquoi les flamands roses lèvent-ils une patte en dormant ?",
+      "answer": "Parce que s'ils levaient les deux, ils tomberaient."
+    },
+    {
+      "title": "Comment appelle-t-on un chien qui n'a pas de pattes ?",
+      "answer": "On ne l'appelle pas, on va le chercher."
+    },
+    {
+      "title": "Quel est le sport le plus silencieux ?",
+      "answer": "Le para-chuuuut !"
+    },
+    {
+      "title": "Que dit un vitrier à son fils pour qu'il soit sage ?",
+      "answer": "Tiens-toi à carreaux si tu veux une glace !"
+    },
+    {
+      "title": "Qu'est-ce qu'un bonbon avec une béquille ?",
+      "answer": "Une sucette."
+    },
+    {
+      "title": "Dans quel sport est-on toujours d'accord ?",
+      "answer": "Le hockey."
+    },
+    {
+      "title": "Quelle est la différence entre un crocodile et un alligator ?",
+      "answer": "C'est Caïman la même chose…"
+    },
+    {
+      "title": "Qu'est-ce qu'une personne avec trois têtes, trois jambes, un bras et dix doigts ?",
+      "answer": "Un menteur."
+    },
+    {
+      "title": "Que dit un oignon quand il se cogne ?",
+      "answer": "Aïe."
+    },
+    {
+      "title": "Où les zombies font-ils de la natation ?",
+      "answer": "A la mer Morte."
+    },
+    {
+      "title": "Quel est le comble pour un professeur de musique ?",
+      "answer": "Mettre des mauvaises notes !"
+    },
+    {
+      "title": "Monsieur et Madame Fonfek ont une fille, comment s'appelle-t-elle ?",
+      "answer": "Sophie (saucisson sec)."
+    },
+    {
+      "title": "Deux laitues discutent dans un champ. Que se racontent-elles ?",
+      "answer": "Des salades."
+    },
+    {
+      "title": "Quelles sont les lettres les plus vieilles de l'alphabet ?",
+      "answer": "A G."
+    },
+    {
+      "title": "Qui faudrait-il appeler pour déblayer les trottoirs ?",
+      "answer": "La reine, car la reine déneige."
+    },
+    {
+      "title": "Quel est l'animal le plus à la mode ?",
+      "answer": "La taupe modèle !"
+    },
+    {
+      "title": "Que disent deux fesses quand elles se croisent ?",
+      "answer": "Alors, ça gaze ?"
+    },
+    {
+      "title": "Que se fait un Schtroumpf quand il tombe ?",
+      "answer": "Un Bleu."
+    },
+    {
+      "title": "Connais-tu la blague de la chaise ?",
+      "answer": "Elle est pliante !"
+    },
+    {
+      "title": "Que dit un citron qui fait un cambriolage ?",
+      "answer": "Plus un zeste !!"
+    },
+    {
+      "title": "Quel est le plat préféré des opticiens ?",
+      "answer": "Les lentilles."
+    },
+    {
+      "title": "Quelle est la profession du soleil ?",
+      "answer": "Chef de rayons."
+    },
+    {
+      "title": "Que fait une fraise sur un cheval ?",
+      "answer": "Tagada tagada."
+    },
+    {
+      "title": "Qu'est-ce qu'un squelette dans une armoire ?",
+      "answer": "Quelqu'un qui a gagné à cache-cache."
+    },
+    {
+      "title": "Où trouve-t-on des chats marrants ?",
+      "answer": "Dans les livres, car il y a des chats pitres !"
+    },
+    {
+      "title": "Quel est le comble pour une abeille ?",
+      "answer": "Partir en lune de miel."
+    },
+    {
+      "title": "Que disent deux fromages qui se prennent en photo ?",
+      "answer": "Cheeeeese !"
+    },
+    {
+      "title": "Quel est le nombre préféré des moustiques ?",
+      "answer": "Le 100."
+    },
+    {
+      "title": "Quel est le sport préféré des chèvres ?",
+      "answer": "L'aéro-bique."
+    },
+    {
+      "title": "Quel est le point commun entre un pêcheur et un mannequin ?",
+      "answer": "Ils surveillent leur ligne !"
+    },
+    {
+      "title": "Qu'est-ce qui tire la couverture à lui et se tient à carreaux ?",
+      "answer": "Un cahier."
+    },
+    {
+      "title": "De quelle couleur sont les petits pois ?",
+      "answer": "Rouge, car les petits poissons rouges."
+    },
+    {
+      "title": "Comment appelle-t-on une pomme qui arrive deuxième à un concours de beauté ?",
+      "answer": "Une pomme dauphine."
+    },
+    {
+      "title": "Qu'est-ce qui fait 'atchoum' quand je veux le manger en dessert ?",
+      "answer": "Un baba au rhum."
+    },
+    {
+      "title": "Tu connais la blague de la Ferrari ?",
+      "answer": "Trop tard, elle est partie."
+    },
+    {
+      "title": "Quel est le légume le plus explosif ?",
+      "answer": "La roquette."
+    },
+    {
+      "title": "Quel est le sport préféré des insectes ?",
+      "answer": "Le criquet."
+    },
+    {
+      "title": "Pourquoi les souris ne jouent jamais aux devinettes ?",
+      "answer": "Parce qu'elles ne veulent pas donner leur langue au chat."
+    },
+    {
+      "title": "Quel super-héros joue le mieux au base-ball ?",
+      "answer": "Batte-Man."
+    }
+  ]
+  
