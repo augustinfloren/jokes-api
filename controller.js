@@ -1,9 +1,10 @@
+const debug = require('debug')('app:controller');
 const Joke = require('./models/Joke');
 
 const controller = {
     async getAllJokes(req, res) {
         try {
-            const jokes = await Joke.finAll();
+            const jokes = await Joke.findAll();
             res.json(jokes);
         } catch(err) {
             console.error('Erreur lors de la récupération des blagues :', err);

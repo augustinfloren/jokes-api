@@ -1,5 +1,6 @@
+const debug = require('debug')('app:model');
 const { DataTypes } = require('sequelize');
-const sequelize = require('./sequelizeClient');
+const sequelize = require('./dbClient');
 
 const Joke = sequelize.define('Joke', {
   title: {
@@ -11,7 +12,8 @@ const Joke = sequelize.define('Joke', {
     allowNull: false,
   },
 }, {
-  tableName: 'jokes'
+  tableName: 'jokes',
+  timestamps: false, // Désactiver les timestamps
 });
 
 module.exports = Joke;

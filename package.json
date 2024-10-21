@@ -4,9 +4,9 @@
   "description": "Projet d'entrée CDA simplon",
   "main": "index.js",
   "scripts": {
-    "init:db": "node ./data/importJokes.js",
+    "db": "node ./data/migrate.js",
     "dev": "nodemon index.js",
-    "debug": "cross-env DEBUG=app node index.js"
+    "debug": "cross-env DEBUG=app:* node index.js"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,9 @@
 require("dotenv").config();
-const debug = require('debug')('app');
+const debug = require('debug')('app:index');
 const express = require("express");
 const router = require("express").Router();
 const controller = require("./controller.js");
+const db = require("./data/migrate.js");
 
 const PORT = process.env.PORT || 3000;
 
@@ -10,12 +11,23 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static("./public"));
-
 app.use(express.json());
 
 router.get("/jokes", controller.getAllJokes);
+app.use(router);
 
-// Lancement du serveur
-app.listen(PORT, () => {
-  debug(`Listening on port ${PORT}`);
-});
+// Exécutez les migrations au démarrage de l'application
+(async () => {
+  try {
+    await db.migrate(); 
+    debug('Migrations effectuées avec succès.');
+    
+    // Lancement du serveur après les migrations
+    app.listen(PORT, 'localhost', () => {
+      debug(`Listening on port ${PORT}`);
+    });
+  } catch (error) {
+    console.error('Erreur lors des migrations :', error.message);
+  }
+})();
+
