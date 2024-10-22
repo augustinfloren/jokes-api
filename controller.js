@@ -1,7 +1,27 @@
 const debug = require('debug')('app:controller');
+const sequelize = require('./models/dbClient');
 const Joke = require('./models/Joke');
 
 const controller = {
+    async addJoke(req, res) {
+        try {
+            const { title, statement, answer } = req.body;
+            const regex = /^[A-Za-zÀ-ÖØ-öø-ÿ\d\s'-]+$/;
+            if(!regex.test(title) || !regex.test(statement) || !regex.test(answer) ){
+                return res.status(400).send("Le champ ne doit contenir que des lettres et des chiffres.");
+            } else {
+                const joke = await Joke.create({
+                    title: title,
+                    statement: statement,
+                    answer: answer,
+                });
+                res.json(joke);
+            }
+        } catch(err) {
+            console.error('Erreur lors de la création de la blague :', err);
+            res.status(500).send('Erreur du serveur');
+        };
+    },
     async getAllJokes(req, res) {
         try {
             const jokes = await Joke.findAll();
@@ -23,13 +43,8 @@ const controller = {
     async getRandomJoke(req, res) {
         try {
             const joke = await Joke.findAll({ 
-                where: { 
-                    col1: 1,
-                    col2: 2,
-                    offset: 0,
-                    limit: 1
-                },
-                order: ['RAND(ID)']
+                order: sequelize.random(),
+                limit: 1
             })
             res.json(joke);
         } catch(err) {

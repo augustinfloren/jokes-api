@@ -11,10 +11,12 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static("./public"));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+router.post("/newJoke", controller.addJoke);
 router.get("/jokes", controller.getAllJokes);
-router.get("/joke", controller.getOneJoke);
+router.get("/joke:id", controller.getOneJoke);
 router.get("/randomJoke", controller.getRandomJoke);
 app.use(router);
 
