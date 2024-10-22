@@ -7,7 +7,8 @@ const db = require("./data/migrate.js");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
+const SERVER_PORT = process.env.SERVER_PORT;
 const API_BASE_URL = process.env.API_BASE_URL;
 
 // Configuration de l'app
@@ -51,7 +52,7 @@ app.use(router);
     debug('Migrations effectuées avec succès.');
     
     // Lancement du serveur après les migrations
-    app.listen(PORT, 'localhost', () => {
+    app.listen(PORT, SERVER_PORT, () => {
       debug(`Listening on port ${PORT}`);
     });
   } catch (error) {
