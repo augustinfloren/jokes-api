@@ -1,6 +1,6 @@
 # Jokes API
 
-## Projet d'entrée Simplon
+## Projet d'entrée CDA Simplon
 
 ## Formation Concepteur Développeur d'Applications (CDA)
 
