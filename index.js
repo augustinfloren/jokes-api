@@ -7,7 +7,8 @@ const db = require("./data/migrate.js");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
+const API_BASE_URL = process.env.API_BASE_URL;
 
 // Configuration de l'app
 const app = express();
@@ -27,7 +28,7 @@ const swaggerOptions = {
       },
       servers: [
           {
-              url: `http://localhost:${PORT}`,
+              url: process.env.API_BASE_URL,
           },
       ],
   },

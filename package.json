@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "db": "node ./data/migrate.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "debug": "cross-env DEBUG=app:* node index.js"
   },

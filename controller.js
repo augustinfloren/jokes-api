@@ -89,8 +89,6 @@ const controller = {
      *     responses:
      *       200:
      *         description: Blague trouvée
-     *       404:
-     *         description: Blague non trouvée
      *       500:
      *         description: Erreur du serveur
      */
