@@ -4,8 +4,11 @@ const express = require("express");
 const router = require("express").Router();
 const controller = require("./controller.js");
 const db = require("./data/migrate.js");
+const swaggerJsDoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
+const API_BASE_URL = process.env.API_BASE_URL;
 
 // Configuration de l'app
 const app = express();
@@ -13,6 +16,27 @@ const app = express();
 app.use(express.static("./public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// Swagger configuration
+const swaggerOptions = {
+  swaggerDefinition: {
+      openapi: "3.0.0",
+      info: {
+          title: "API de Blagues Carambar",
+          version: "1.0.0",
+          description: "Une API pour gérer des blagues",
+      },
+      servers: [
+          {
+              url: process.env.API_BASE_URL,
+          },
+      ],
+  },
+  apis: ["./controller.js"], 
+};
+
+const swaggerDocs = swaggerJsDoc(swaggerOptions);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 router.post("/newJoke", controller.addJoke);
 router.get("/jokes", controller.getAllJokes);
