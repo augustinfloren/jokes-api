@@ -14,6 +14,8 @@ app.use(express.static("./public"));
 app.use(express.json());
 
 router.get("/jokes", controller.getAllJokes);
+router.get("/joke", controller.getOneJoke);
+router.get("/randomJoke", controller.getRandomJoke);
 app.use(router);
 
 // Exécutez les migrations au démarrage de l'application

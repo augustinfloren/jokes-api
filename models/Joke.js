@@ -7,6 +7,10 @@ const Joke = sequelize.define('Joke', {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  statement: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
   answer: {
     type: DataTypes.STRING,
     allowNull: false,

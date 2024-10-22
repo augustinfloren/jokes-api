@@ -1,203 +1,257 @@
 [
-    {
-      "title": "Quel est le comble pour un joueur de bowling ?",
-      "answer": "De perdre la boule !"
-    },
-    {
-      "title": "Pourquoi ne faut-il jamais raconter d'histoires drôles à un ballon ?",
-      "answer": "Parce qu'il pourrait éclater de rire !"
-    },
-    {
-      "title": "Quel est le comble pour un professeur de géographie ?",
-      "answer": "De perdre le nord."
-    },
-    {
-      "title": "Pourquoi les indiens d'Amérique ont-ils froid ?",
-      "answer": "Parce que Christophe Colomb les a découverts."
-    },
-    {
-      "title": "Comment reconnaît-on un gorille qui sonne à la porte ?",
-      "answer": "Ça fait King-Kong !"
-    },
-    {
-      "title": "Qu'est ce qu'une carotte au milieu d'une flaque d'eau ?",
-      "answer": "Un bonhomme de neige au printemps !"
-    },
-    {
-      "title": "Quelle est la femelle du hamster ?",
-      "answer": "L'Amsterdam."
-    },
-    {
-      "title": "Quel métier les chiens peuvent-ils exercer ?",
-      "answer": "Electrichien !"
-    },
-    {
-      "title": "Qu'est-ce qui pleure quand on lui tourne la tête ?",
-      "answer": "Un robinet."
-    },
-    {
-      "title": "De quelle couleur sont les parapluies quand il pleut ?",
-      "answer": "Ils sont tout verts !"
-    },
-    {
-      "title": "Qu'est-ce qu'une baguette avec une boussole ?",
-      "answer": "Un pain perdu."
-    },
-    {
-      "title": "Pourquoi les flamands roses lèvent-ils une patte en dormant ?",
-      "answer": "Parce que s'ils levaient les deux, ils tomberaient."
-    },
-    {
-      "title": "Comment appelle-t-on un chien qui n'a pas de pattes ?",
-      "answer": "On ne l'appelle pas, on va le chercher."
-    },
-    {
-      "title": "Quel est le sport le plus silencieux ?",
-      "answer": "Le para-chuuuut !"
-    },
-    {
-      "title": "Que dit un vitrier à son fils pour qu'il soit sage ?",
-      "answer": "Tiens-toi à carreaux si tu veux une glace !"
-    },
-    {
-      "title": "Qu'est-ce qu'un bonbon avec une béquille ?",
-      "answer": "Une sucette."
-    },
-    {
-      "title": "Dans quel sport est-on toujours d'accord ?",
-      "answer": "Le hockey."
-    },
-    {
-      "title": "Quelle est la différence entre un crocodile et un alligator ?",
-      "answer": "C'est Caïman la même chose…"
-    },
-    {
-      "title": "Qu'est-ce qu'une personne avec trois têtes, trois jambes, un bras et dix doigts ?",
-      "answer": "Un menteur."
-    },
-    {
-      "title": "Que dit un oignon quand il se cogne ?",
-      "answer": "Aïe."
-    },
-    {
-      "title": "Où les zombies font-ils de la natation ?",
-      "answer": "A la mer Morte."
-    },
-    {
-      "title": "Quel est le comble pour un professeur de musique ?",
-      "answer": "Mettre des mauvaises notes !"
-    },
-    {
-      "title": "Monsieur et Madame Fonfek ont une fille, comment s'appelle-t-elle ?",
-      "answer": "Sophie (saucisson sec)."
-    },
-    {
-      "title": "Deux laitues discutent dans un champ. Que se racontent-elles ?",
-      "answer": "Des salades."
-    },
-    {
-      "title": "Quelles sont les lettres les plus vieilles de l'alphabet ?",
-      "answer": "A G."
-    },
-    {
-      "title": "Qui faudrait-il appeler pour déblayer les trottoirs ?",
-      "answer": "La reine, car la reine déneige."
-    },
-    {
-      "title": "Quel est l'animal le plus à la mode ?",
-      "answer": "La taupe modèle !"
-    },
-    {
-      "title": "Que disent deux fesses quand elles se croisent ?",
-      "answer": "Alors, ça gaze ?"
-    },
-    {
-      "title": "Que se fait un Schtroumpf quand il tombe ?",
-      "answer": "Un Bleu."
-    },
-    {
-      "title": "Connais-tu la blague de la chaise ?",
-      "answer": "Elle est pliante !"
-    },
-    {
-      "title": "Que dit un citron qui fait un cambriolage ?",
-      "answer": "Plus un zeste !!"
-    },
-    {
-      "title": "Quel est le plat préféré des opticiens ?",
-      "answer": "Les lentilles."
-    },
-    {
-      "title": "Quelle est la profession du soleil ?",
-      "answer": "Chef de rayons."
-    },
-    {
-      "title": "Que fait une fraise sur un cheval ?",
-      "answer": "Tagada tagada."
-    },
-    {
-      "title": "Qu'est-ce qu'un squelette dans une armoire ?",
-      "answer": "Quelqu'un qui a gagné à cache-cache."
-    },
-    {
-      "title": "Où trouve-t-on des chats marrants ?",
-      "answer": "Dans les livres, car il y a des chats pitres !"
-    },
-    {
-      "title": "Quel est le comble pour une abeille ?",
-      "answer": "Partir en lune de miel."
-    },
-    {
-      "title": "Que disent deux fromages qui se prennent en photo ?",
-      "answer": "Cheeeeese !"
-    },
-    {
-      "title": "Quel est le nombre préféré des moustiques ?",
-      "answer": "Le 100."
-    },
-    {
-      "title": "Quel est le sport préféré des chèvres ?",
-      "answer": "L'aéro-bique."
-    },
-    {
-      "title": "Quel est le point commun entre un pêcheur et un mannequin ?",
-      "answer": "Ils surveillent leur ligne !"
-    },
-    {
-      "title": "Qu'est-ce qui tire la couverture à lui et se tient à carreaux ?",
-      "answer": "Un cahier."
-    },
-    {
-      "title": "De quelle couleur sont les petits pois ?",
-      "answer": "Rouge, car les petits poissons rouges."
-    },
-    {
-      "title": "Comment appelle-t-on une pomme qui arrive deuxième à un concours de beauté ?",
-      "answer": "Une pomme dauphine."
-    },
-    {
-      "title": "Qu'est-ce qui fait 'atchoum' quand je veux le manger en dessert ?",
-      "answer": "Un baba au rhum."
-    },
-    {
-      "title": "Tu connais la blague de la Ferrari ?",
-      "answer": "Trop tard, elle est partie."
-    },
-    {
-      "title": "Quel est le légume le plus explosif ?",
-      "answer": "La roquette."
-    },
-    {
-      "title": "Quel est le sport préféré des insectes ?",
-      "answer": "Le criquet."
-    },
-    {
-      "title": "Pourquoi les souris ne jouent jamais aux devinettes ?",
-      "answer": "Parce qu'elles ne veulent pas donner leur langue au chat."
-    },
-    {
-      "title": "Quel super-héros joue le mieux au base-ball ?",
-      "answer": "Batte-Man."
-    }
-  ]
-  
+  {
+    "title": "le joueur de bowling",
+    "statement": "Quel est le comble pour un joueur de bowling ?",
+    "answer": "De perdre la boule !"
+  },
+  {
+    "title": "le ballon",
+    "statement": "Pourquoi ne faut-il jamais raconter d'histoires drôles à un ballon ?",
+    "answer": "Parce qu'il pourrait éclater de rire !"
+  },
+  {
+    "title": "le professeur de géographie",
+    "statement": "Quel est le comble pour un professeur de géographie ?",
+    "answer": "De perdre le nord."
+  },
+  {
+    "title": "les indiens d'Amérique",
+    "statement": "Pourquoi les indiens d'Amérique ont-ils froid ?",
+    "answer": "Parce que Christophe Colomb les a découverts."
+  },
+  {
+    "title": "le gorille",
+    "statement": "Comment reconnaît-on un gorille qui sonne à la porte ?",
+    "answer": "Ça fait King-Kong !"
+  },
+  {
+    "title": "la carotte",
+    "statement": "Qu'est ce qu'une carotte au milieu d'une flaque d'eau ?",
+    "answer": "Un bonhomme de neige au printemps !"
+  },
+  {
+    "title": "le hamster",
+    "statement": "Quelle est la femelle du hamster ?",
+    "answer": "L'Amsterdam."
+  },
+  {
+    "title": "les chiens",
+    "statement": "Quel métier les chiens peuvent-ils exercer ?",
+    "answer": "Electrichien !"
+  },
+  {
+    "title": "le robinet",
+    "statement": "Qu'est-ce qui pleure quand on lui tourne la tête ?",
+    "answer": "Un robinet."
+  },
+  {
+    "title": "les parapluies",
+    "statement": "De quelle couleur sont les parapluies quand il pleut ?",
+    "answer": "Ils sont tout verts !"
+  },
+  {
+    "title": "la baguette",
+    "statement": "Qu'est-ce qu'une baguette avec une boussole ?",
+    "answer": "Un pain perdu."
+  },
+  {
+    "title": "les flamands roses",
+    "statement": "Pourquoi les flamands roses lèvent-ils une patte en dormant ?",
+    "answer": "Parce que s'ils levaient les deux, ils tomberaient."
+  },
+  {
+    "title": "le chien sans pattes",
+    "statement": "Comment appelle-t-on un chien qui n'a pas de pattes ?",
+    "answer": "On ne l'appelle pas, on va le chercher."
+  },
+  {
+    "title": "le parachutisme",
+    "statement": "Quel est le sport le plus silencieux ?",
+    "answer": "Le para-chuuuut !"
+  },
+  {
+    "title": "le vitrier",
+    "statement": "Que dit un vitrier à son fils pour qu'il soit sage ?",
+    "answer": "Tiens-toi à carreaux si tu veux une glace !"
+  },
+  {
+    "title": "le bonbon",
+    "statement": "Qu'est-ce qu'un bonbon avec une béquille ?",
+    "answer": "Une sucette."
+  },
+  {
+    "title": "le hockey",
+    "statement": "Dans quel sport est-on toujours d'accord ?",
+    "answer": "Le hockey."
+  },
+  {
+    "title": "le crocodile",
+    "statement": "Quelle est la différence entre un crocodile et un alligator ?",
+    "answer": "C'est Caïman la même chose…"
+  },
+  {
+    "title": "le menteur",
+    "statement": "Qu'est-ce qu'une personne avec trois têtes, trois jambes, un bras et dix doigts ?",
+    "answer": "Un menteur."
+  },
+  {
+    "title": "l'oignon",
+    "statement": "Que dit un oignon quand il se cogne ?",
+    "answer": "Aïe."
+  },
+  {
+    "title": "les zombies",
+    "statement": "Où les zombies font-ils de la natation ?",
+    "answer": "A la mer Morte."
+  },
+  {
+    "title": "le professeur de musique",
+    "statement": "Quel est le comble pour un professeur de musique ?",
+    "answer": "Mettre des mauvaises notes !"
+  },
+  {
+    "title": "les Fonfek",
+    "statement": "Monsieur et Madame Fonfek ont une fille, comment s'appelle-t-elle ?",
+    "answer": "Sophie (saucisson sec)."
+  },
+  {
+    "title": "les laitues",
+    "statement": "Deux laitues discutent dans un champ. Que se racontent-elles ?",
+    "answer": "Des salades."
+  },
+  {
+    "title": "les lettres",
+    "statement": "Quelles sont les lettres les plus vieilles de l'alphabet ?",
+    "answer": "A G."
+  },
+  {
+    "title": "la reine",
+    "statement": "Qui faudrait-il appeler pour déblayer les trottoirs ?",
+    "answer": "La reine, car la reine déneige."
+  },
+  {
+    "title": "la taupe",
+    "statement": "Quel est l'animal le plus à la mode ?",
+    "answer": "La taupe modèle !"
+  },
+  {
+    "title": "les fesses",
+    "statement": "Que disent deux fesses quand elles se croisent ?",
+    "answer": "Alors, ça gaze ?"
+  },
+  {
+    "title": "le Schtroumpf",
+    "statement": "Que se fait un Schtroumpf quand il tombe ?",
+    "answer": "Un Bleu."
+  },
+  {
+    "title": "la chaise",
+    "statement": "Connais-tu la blague de la chaise ?",
+    "answer": "Elle est pliante !"
+  },
+  {
+    "title": "le citron",
+    "statement": "Que dit un citron qui fait un cambriolage ?",
+    "answer": "Plus un zeste !!"
+  },
+  {
+    "title": "les opticiens",
+    "statement": "Quel est le plat préféré des opticiens ?",
+    "answer": "Les lentilles."
+  },
+  {
+    "title": "le soleil",
+    "statement": "Quelle est la profession du soleil ?",
+    "answer": "Chef de rayons."
+  },
+  {
+    "title": "la fraise",
+    "statement": "Que fait une fraise sur un cheval ?",
+    "answer": "Tagada tagada."
+  },
+  {
+    "title": "le squelette",
+    "statement": "Qu'est-ce qu'un squelette dans une armoire ?",
+    "answer": "Quelqu'un qui a gagné à cache-cache."
+  },
+  {
+    "title": "les chats marrants",
+    "statement": "Où trouve-t-on des chats marrants ?",
+    "answer": "Dans les livres, car il y a des chats pitres !"
+  },
+  {
+    "title": "l'abeille",
+    "statement": "Quel est le comble pour une abeille ?",
+    "answer": "Partir en lune de miel."
+  },
+  {
+    "title": "le fromage",
+    "statement": "Que disent deux fromages qui se prennent en photo ?",
+    "answer": "Cheeeeese !"
+  },
+  {
+    "title": "les moustiques",
+    "statement": "Quel est le nombre préféré des moustiques ?",
+    "answer": "Le 100."
+  },
+  {
+    "title": "les chèvres",
+    "statement": "Quel est le sport préféré des chèvres ?",
+    "answer": "L'aéro-bique."
+  },
+  {
+    "title": "le pêcheur",
+    "statement": "Quel est le point commun entre un pêcheur et un mannequin ?",
+    "answer": "Ils surveillent leur ligne !"
+  },
+  {
+    "title": "le cahier",
+    "statement": "Qu'est-ce qui tire la couverture à lui et se tient à carreaux ?",
+    "answer": "Un cahier."
+  },
+  {
+    "title": "les petits pois",
+    "statement": "De quelle couleur sont les petits pois ?",
+    "answer": "Rouge, car les petits poissons rouges."
+  },
+  {
+    "title": "la pomme dauphine",
+    "statement": "Comment appelle-t-on une pomme qui arrive deuxième à un concours de beauté ?",
+    "answer": "Une pomme dauphine."
+  },
+  {
+    "title": "le baba au rhum",
+    "statement": "Qu'est-ce qui fait 'atchoum' quand je veux le manger en dessert ?",
+    "answer": "Un baba au rhum."
+  },
+  {
+    "title": "la Ferrari",
+    "statement": "Tu connais la blague de la Ferrari ?",
+    "answer": "Trop tard, elle est partie."
+  },
+  {
+    "title": "la roquette",
+    "statement": "Quel est le légume le plus explosif ?",
+    "answer": "La roquette."
+  },
+  {
+    "title": "l'autruche",
+    "statement": "Pourquoi les autruches ne jouent-elles pas à cache-cache ?",
+    "answer": "Parce qu'on les retrouve toujours."
+  },
+  {
+    "title": "les astronautes",
+    "statement": "Où les astronautes garent-ils leur vaisseau spatial ?",
+    "answer": "Dans une place de parking !"
+  },
+  {
+    "title": "l'oreiller",
+    "statement": "Quel est le comble pour un oreiller ?",
+    "answer": "C'est de passer de bonnes nuits blanches !"
+  },
+  {
+    "title": "le râteau",
+    "statement": "Quel est le comble pour un râteau ?",
+    "answer": "De ne pas avoir de succès avec les filles !"
+  }
+]
