@@ -1,12 +1,17 @@
-const sqlite3 = require('sqlite3').verbose(); // Importer le module sqlite3
+const debug = require('debug')('app:client');
+const { Sequelize } = require('sequelize');
 
-// Créer ou ouvrir une base de données SQLite
-const db = new sqlite3.Database('jokes.db', (err) => {
-    if (err) {
-      console.error('Erreur lors de la connexion à la base de données :', err.message);
-    } else {
-      console.log('Connecté à la base de données SQLite.');
-    }
+const sequelize = new Sequelize({
+  dialect: 'sqlite',
+  storage: './jokes.db' 
 });
 
-module.exports = db;
+sequelize.authenticate()
+.then(() => {
+  debug('Connexion à la base de données réussie.');
+})
+.catch(err => {
+  debug('Erreur de connexion à la base de données:', err);
+});
+
+module.exports = sequelize;
