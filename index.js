@@ -44,17 +44,15 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 router.post("/newJoke", controller.addJoke);
 router.get("/jokes", controller.getAllJokes);
-router.get("/joke:id", controller.getOneJoke);
+router.get("/joke/:id", controller.getOneJoke);
 router.get("/randomJoke", controller.getRandomJoke);
 app.use(router);
 
-// Exécutez les migrations au démarrage de l'application
 (async () => {
   try {
     await db.migrate(); 
     debug('Migrations effectuées avec succès.');
     
-    // Lancement du serveur après les migrations
     app.listen(PORT, SERVER_PORT, () => {
       debug(`Listening on port ${PORT}`);
     });

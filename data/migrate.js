@@ -9,8 +9,7 @@ const migrate = async () => {
     const data = fs.readFileSync(path.join(__dirname, 'jokes.json'), 'utf8');
     const jokes = JSON.parse(data);
 
-    // Synchroniser tous les modèles
-    await sequelize.sync({ force: true }); // Utiliser { force: true } pour supprimer les tables existantes et les recréer
+    await sequelize.sync({ force: true }); 
     debug('La base de données a été synchronisée.');
 
     await Joke.bulkCreate(jokes);
