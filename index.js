@@ -14,6 +14,9 @@ const API_BASE_URL = process.env.API_BASE_URL;
 // Configuration de l'app
 const app = express();
 
+const cors = require('cors');
+app.use(cors());
+
 app.use(express.static("./public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
