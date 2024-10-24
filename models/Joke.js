@@ -17,7 +17,7 @@ const Joke = sequelize.define('Joke', {
   },
 }, {
   tableName: 'jokes',
-  timestamps: false, // Désactiver les timestamps
+  timestamps: false, 
 });
 
 module.exports = Joke;

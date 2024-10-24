@@ -3,7 +3,7 @@ const debug = require('debug')('app:index');
 const express = require("express");
 const router = require("express").Router();
 const controller = require("./controller.js");
-const db = require("./data/migrate.js");
+const migrate = require("./data/migrate.js");
 const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
@@ -11,13 +11,10 @@ const PORT = process.env.PORT || 3000;
 const SERVER_PORT = process.env.SERVER_PORT;
 const API_BASE_URL = process.env.API_BASE_URL;
 
-// Configuration de l'app
 const app = express();
-
 const cors = require('cors');
 app.use(cors());
-
-app.use(express.static("./public"));
+app.use(router);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -46,11 +43,10 @@ router.post("/newJoke", controller.addJoke);
 router.get("/jokes", controller.getAllJokes);
 router.get("/joke/:id", controller.getOneJoke);
 router.get("/randomJoke", controller.getRandomJoke);
-app.use(router);
 
 (async () => {
   try {
-    await db.migrate(); 
+    await migrate(); 
     debug('Migrations effectuées avec succès.');
     
     app.listen(PORT, SERVER_PORT, () => {
