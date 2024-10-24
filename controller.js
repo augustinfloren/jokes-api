@@ -34,6 +34,7 @@ const controller = {
      *         description: Erreur du serveur
      */
     async addJoke(req, res) {
+        debug(req.body)
         try {
             const { title, statement, answer } = req.body;
             const regex = /^[A-Za-zÀ-ÖØ-öø-ÿ\d\s'-]+$/;

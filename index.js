@@ -14,7 +14,6 @@ const API_BASE_URL = process.env.API_BASE_URL;
 const app = express();
 const cors = require('cors');
 app.use(cors());
-app.use(router);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -43,6 +42,8 @@ router.post("/newJoke", controller.addJoke);
 router.get("/jokes", controller.getAllJokes);
 router.get("/joke/:id", controller.getOneJoke);
 router.get("/randomJoke", controller.getRandomJoke);
+
+app.use(router);
 
 (async () => {
   try {
