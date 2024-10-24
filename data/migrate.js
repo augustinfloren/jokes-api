@@ -4,7 +4,7 @@ const Joke = require('../models/Joke');
 const fs = require('fs');
 const path = require('path');
 
-const migrate = async () => {
+async function migrate() {
   try {
     const data = fs.readFileSync(path.join(__dirname, 'jokes.json'), 'utf8');
     const jokes = JSON.parse(data);
@@ -19,4 +19,4 @@ const migrate = async () => {
   } 
 };
 
-module.exports = { migrate };
+module.exports = migrate;
